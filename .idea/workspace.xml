@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b67c060-27a0-47a4-94e2-46e9df7d8ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/messages_fr_FR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567754706264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="checked">
+      <created>1567758416678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567758416678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +154,7 @@
     <MESSAGE value="dghfdsghd" />
     <MESSAGE value="fkfkf" />
     <MESSAGE value="fsgdgdgdd" />
-    <option name="LAST_COMMIT_MESSAGE" value="fsgdgdgdd" />
+    <MESSAGE value="checked" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked" />
   </component>
 </project>
