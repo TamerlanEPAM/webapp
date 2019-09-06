@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b67c060-27a0-47a4-94e2-46e9df7d8ca7" name="Default Changelist" comment="dghfdsghd" />
+    <list default="true" id="6b67c060-27a0-47a4-94e2-46e9df7d8ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567754259262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fkfkf">
+      <created>1567754543233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567754543233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fsgdgdgdd">
+      <created>1567754706264</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567754706264</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dghfdsghd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dghfdsghd" />
+    <MESSAGE value="fkfkf" />
+    <MESSAGE value="fsgdgdgdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="fsgdgdgdd" />
   </component>
 </project>
