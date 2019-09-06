@@ -20,21 +20,21 @@
                <c:out value="${updated}"></c:out>
               <c:out value="${user.getUsername()}"></c:out>
         <hr/>
-        <form name="LogoutForm" method="post" action="/titled1_war_exploded/controller">
+        <form name="LogoutForm" method="post" action="/webapp/controller">
                 <input type="hidden" name="command" value="Logout"/>
                 <input type="submit" value="<fmt:message key="locale.main.student.exit"></fmt:message> "/>
         </form>
-        <form name="GetTests" method="get" action="/titled1_war_exploded/controller">
+        <form name="GetTests" method="get" action="/webapp/controller">
                 <input type="hidden" name="command" value="get_tests"/>
                 <input type="submit" value="<fmt:message key="locale.main.student.get.tests"></fmt:message> "/>
         </form>
-        <form name="DeleteProfile" method="get" action="/titled1_war_exploded/controller">
+        <form name="DeleteProfile" method="get" action="/webapp/controller">
                 <input type="hidden" name="command" value="delete_profile"/>
                 <input type="submit" value="<fmt:message key="locale.main.student.delete.profile"></fmt:message>"/>
         </form>
 
 
-        <a href = "/titled1_war_exploded/view/updateProfile.jsp"><fmt:message key="locale.main.student.update.profile"></fmt:message> </a>
+        <a href = "/webapp/view/updateProfile.jsp"><fmt:message key="locale.main.student.update.profile"></fmt:message> </a>
 
 
 </body>

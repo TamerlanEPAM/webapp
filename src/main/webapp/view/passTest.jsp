@@ -13,7 +13,7 @@
 <br/>
 <h1>${test.getTestName()}</h1>
 <br/>
-<form name="PassTest" method="get" action="/titled1_war_exploded/controller">
+<form name="PassTest" method="get" action="/webapp/controller">
     <input type="hidden" name="command" value="pass_test"/>
     <input type="hidden" name="testName" value="${test.getTestName()}">
     <input type="hidden" name="teacherName" value="${test.getTeacherName()}">

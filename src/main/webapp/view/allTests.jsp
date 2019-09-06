@@ -18,7 +18,7 @@
 <c:forEach var="test"  items="${tests}">
     <br/>
     Test:
-    <form name="take" method="get" action="/titled1_war_exploded/controller">
+    <form name="take" method="get" action="/webapp/controller">
     <table>
         <tr>
             <td><fmt:message key="locale.all.tests.test.name"></fmt:message> </td>

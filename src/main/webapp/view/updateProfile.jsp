@@ -17,7 +17,7 @@ ${registered}
 <hr/>
 ${user.getUsername()}<fmt:message key="locale.update.profile.hello"></fmt:message>
 <hr/>
-<form name="UpdateProfile" method="post" action="/titled1_war_exploded/controller">
+<form name="UpdateProfile" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="update_profile">
     <fmt:message key="locale.update.profile.login"></fmt:message>
     <br/>

@@ -15,7 +15,7 @@
 <c:import url="/view/header.jsp"></c:import>
 <br/>
 <h1><fmt:message key="locale.created.test.successfully.created"></fmt:message> </h1>
-<form name="PublishTest" method="post" action="/titled1_war_exploded/controller">
+<form name="PublishTest" method="post" action="/webapp/controller">
     <h3>${test.getTestName()}</h3>
     <br/>
     <fmt:message key="locale.created.test.questions"></fmt:message>
@@ -36,7 +36,7 @@
         <br/>
     </c:forEach>
     <br/>
-    <a href="/titled1_war_exploded/view/mainTeacher.jsp"><fmt:message key="locale.created.test.href.main.page"></fmt:message> </a>
+    <a href="/webapp/view/mainTeacher.jsp"><fmt:message key="locale.created.test.href.main.page"></fmt:message> </a>
 </form>
 </body>
 </html>

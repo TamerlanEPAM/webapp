@@ -16,12 +16,12 @@
 ${user.getUsername()}<fmt:message key="locale.main.teacher.hello"></fmt:message>
 <hr/>
 <br/>
-<form name="LogoutForm" method="post" action="/titled1_war_exploded/controller">
+<form name="LogoutForm" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="Logout"/>
     <table>
         <tr>
             <td><input type="submit" value="<fmt:message key="locale.main.teacher.log.out"></fmt:message>"/></td>
-            <td> <a href="/titled1_war_exploded/view/createTest.jsp"><fmt:message key="locale.main.teacher.create.test"></fmt:message> </a></td>
+            <td> <a href="/webapp/view/createTest.jsp"><fmt:message key="locale.main.teacher.create.test"></fmt:message> </a></td>
         </tr>
     </table>
 </form>

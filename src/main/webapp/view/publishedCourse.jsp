@@ -31,7 +31,7 @@
         </form>
     </c:forEach>
     <br/>
-    <a href="/titled1_war_exploded/view/mainTeacher.jsp"><fmt:message key="locale.published.tests.main.page"></fmt:message> </a>
+    <a href="/webapp/view/mainTeacher.jsp"><fmt:message key="locale.published.tests.main.page"></fmt:message> </a>
 </form>
 </body>
 </html>

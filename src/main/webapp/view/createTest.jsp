@@ -13,7 +13,7 @@
 <c:set var="currentPage" value="path.page.create.test" scope="session"/>
 <c:import url="/view/header.jsp"></c:import>
 <br/>
-<form name="CreateTest" method="post" action="/titled1_war_exploded/controller">
+<form name="CreateTest" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="create_test"/>
     <br/>
     <fmt:message key="locale.create.test.name"></fmt:message>

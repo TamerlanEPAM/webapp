@@ -26,6 +26,6 @@
         <td>${date}</td>
     </tr>
 </table>
-<a href="/titled1_war_exploded/view/mainStudent.jsp"><fmt:message key="locale.mark.main.page"></fmt:message> </a>
+<a href="/webapp/view/mainStudent.jsp"><fmt:message key="locale.mark.main.page"></fmt:message> </a>
 </body>
 </html>

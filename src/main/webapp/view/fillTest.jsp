@@ -14,7 +14,7 @@
 <c:import url="/view/header.jsp"></c:import>
 <br/>
 <h3>
- <form name="PublishTest" method="post" action="/titled1_war_exploded/controller">
+ <form name="PublishTest" method="post" action="/webapp/controller">
      <input type="hidden" name="command" value="publish_test">
      <h3>${test.getTestName()}</h3>
      <br/>

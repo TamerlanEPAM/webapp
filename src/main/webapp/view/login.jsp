@@ -11,7 +11,7 @@
 <c:set var="currentPage" value="path.page.login" scope="session"/>
 <c:import url="/view/header.jsp"></c:import>
 <br/>
-<form name="LoginForm" method="post" action="/titled1_war_exploded/controller">
+<form name="LoginForm" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="Login"/>
     <fmt:message key="locale.login.login"></fmt:message>
     <br/>
@@ -31,7 +31,7 @@
 <br/>
 <br/>
 <br/>
-    <a href="/titled1_war_exploded/view/register.jsp"><fmt:message key="locale.login.registration"></fmt:message> </a>
+    <a href="/webapp/view/register.jsp"><fmt:message key="locale.login.registration"></fmt:message> </a>
 </form><hr/>
 </body>
 </html>
