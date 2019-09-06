@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b67c060-27a0-47a4-94e2-46e9df7d8ca7" name="Default Changelist" comment="" />
+    <list default="true" id="6b67c060-27a0-47a4-94e2-46e9df7d8ca7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/ActionCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/ChangeLanguageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/CreateTestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/DeleteProfileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/EmptyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/GetTestsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/LogoutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/PassTestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/PublishTestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/RegisterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/TakeTestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/command/impl/UpdateProfileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/AnswerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/DAOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/QuestionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/TestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/impl/AnswerDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/impl/QuestionDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/impl/TestDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/CurrentStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/pool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/pool/ConnectorDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/pool/PooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/util/NullUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/zhabassov/webapp/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/allTests.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/createTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/createdTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/deleteProfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/fillTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mainStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/mainTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/myMark.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/passTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/publishedCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/updateProfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resourses/messages_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +77,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,16 +94,22 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/webProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kz.zhabassov.webapp.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\main\webapp" />
+      <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\resourses" />
+      <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\main\java\kz\zhabassov\webapp" />
+      <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\main\java\kz\zhabassov\webapp\command" />
       <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\main\webapp\WEB-INF\lib" />
-      <recent name="C:\Users\tamerlan_zhabassov\IdeaProjects\webapp\src\main\webapp\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,5 +166,18 @@
       <updated>1567746954375</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
