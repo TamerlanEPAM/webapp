@@ -9,7 +9,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.login" scope="session"/>
-<c:import url="webapp/view/header.jsp"></c:import>
+<c:import url="/view/header.jsp"></c:import>
 <br/>
 <form name="LoginForm" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="Login"/>
