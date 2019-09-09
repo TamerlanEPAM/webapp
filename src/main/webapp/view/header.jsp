@@ -2,7 +2,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <fmt:setBundle basename="resources.messages"/>
-<%--<fmt:setLocale value="en_US" scope="session"/>--%>
+<fmt:setLocale value="en_US" scope="session"/>
 <html>
 <body>
 
