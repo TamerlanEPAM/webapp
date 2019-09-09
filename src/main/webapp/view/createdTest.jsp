@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<fmt:setBundle basename="messages"/>
+<fmt:setBundle basename="resources.messages"/>
 <fmt:setLocale value="${language}" scope="session"/>
 
 <html>
@@ -12,7 +12,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.created.test" scope="session"/>
-<c:import url="/web/view/header.jsp"></c:import>
+<c:import url="/view/header.jsp"></c:import>
 <br/>
 <h1><fmt:message key="locale.created.test.successfully.created"></fmt:message> </h1>
 <form name="PublishTest" method="post" action="/webapp/controller">
