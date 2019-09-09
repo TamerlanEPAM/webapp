@@ -10,7 +10,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.my.mark" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <table style="border: black">
     <tr>

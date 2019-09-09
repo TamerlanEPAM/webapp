@@ -9,7 +9,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.register" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <form name="RegistrationForm" method="post" action="/webapp/controller">
     <input type="hidden" name="command" value="registration"/>

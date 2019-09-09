@@ -9,7 +9,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.update.profile" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <h3><fmt:message key="locale.update.profile.update.profile"></fmt:message> </h3>
 <hr/>

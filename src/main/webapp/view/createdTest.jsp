@@ -12,7 +12,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.created.test" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <h1><fmt:message key="locale.created.test.successfully.created"></fmt:message> </h1>
 <form name="PublishTest" method="post" action="/webapp/controller">

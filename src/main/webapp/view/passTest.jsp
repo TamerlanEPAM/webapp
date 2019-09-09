@@ -9,7 +9,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.pass.test" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <h1>${test.getTestName()}</h1>
 <br/>

@@ -13,7 +13,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.all.tests" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <c:forEach var="test"  items="${tests}">
     <br/>

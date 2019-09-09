@@ -9,7 +9,7 @@
 </head>
 <body>
 <c:set var="currentPage" value="path.page.main.teacher" scope="session"/>
-<c:import url="/view/header.jsp"></c:import>
+<c:import url="/web/view/header.jsp"></c:import>
 <br/>
 <h3><fmt:message key="locale.main.teacher.welcome.teacher"></fmt:message> </h3>
 <hr/>
