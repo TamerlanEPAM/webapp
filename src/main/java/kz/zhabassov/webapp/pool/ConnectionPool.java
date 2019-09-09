@@ -15,14 +15,14 @@ public class ConnectionPool {
     private static BlockingQueue<PooledConnection> freeConnections;
     private static BlockingQueue<PooledConnection> givenAwayConnections;
 
-    private String driverName;
+//    private String driverName;
     private String url;
     private String user;
     private String password;
     private int poolSize;
 
     private ConnectionPool() {
-        driverName = ConnectorDB.getProperty(ConnectorDB.DRIVER_NAME);
+     //   driverName = ConnectorDB.getProperty(ConnectorDB.DRIVER_NAME);
         url = ConnectorDB.getProperty(ConnectorDB.URL);
         user = ConnectorDB.getProperty(ConnectorDB.USER);
         password = ConnectorDB.getProperty(ConnectorDB.PASSWORD);
