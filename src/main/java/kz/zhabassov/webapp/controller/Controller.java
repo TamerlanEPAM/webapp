@@ -32,7 +32,7 @@ public class Controller extends HttpServlet {
 
     @Override
     public void init() throws ServletException {
-       ConnectionPool.getInstance();
+      // ConnectionPool.getInstance();
     }
 
     @Override
