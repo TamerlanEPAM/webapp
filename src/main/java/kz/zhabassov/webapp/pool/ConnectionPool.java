@@ -20,7 +20,6 @@ public class ConnectionPool {
     private String user;
     private String password;
     private int poolSize;
-   // private int poolTimeout;
 
     private ConnectionPool() {
         driverName = ConnectorDB.getProperty(ConnectorDB.DRIVER_NAME);
@@ -45,8 +44,6 @@ public class ConnectionPool {
                     e.printStackTrace();
                 }
             }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
