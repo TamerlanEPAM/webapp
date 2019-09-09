@@ -33,6 +33,9 @@ public class ConnectionPool {
         }
         try {
             Class.forName("org.postgresql.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
             freeConnections = new ArrayBlockingQueue<>(poolSize);
             givenAwayConnections = new ArrayBlockingQueue<>(poolSize);
             for (int i = 0; i < poolSize ; i++) {
@@ -44,9 +47,7 @@ public class ConnectionPool {
                     e.printStackTrace();
                 }
             }
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+
 
     }
 
