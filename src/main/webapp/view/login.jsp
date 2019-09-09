@@ -11,7 +11,7 @@
 <c:set var="currentPage" value="path.page.login" scope="session"/>
 <c:import url="/view/header.jsp"></c:import>
 <br/>
-<form name="LoginForm" method="post" action="/webapp/controller">
+<form name="LoginForm" method="post" action="controller">
     <input type="hidden" name="command" value="Login"/>
     <fmt:message key="locale.login.login"></fmt:message>
     <br/>
